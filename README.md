@@ -52,7 +52,7 @@
 
 ```bash
 git clone https://github.com/qingqiyangqidanqi/Dynamic-updating-method-of-course-content-based-on-multiple-intelligent-agents-collaboration.git
-cd dynamic-course-update
+cd Dynamic-updating-method-of-course-content
 ```
 
 2. 安装依赖
