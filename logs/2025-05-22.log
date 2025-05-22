@@ -1,0 +1,22 @@
+2025-05-22 22:31:15,243 - api.llm_api - INFO - 大模型API接口初始化完成，使用模型: GLM-4
+2025-05-22 22:31:15,243 - api.search_engine_api - INFO - 搜索引擎API接口初始化完成，使用引擎: bing
+2025-05-22 22:31:15,244 - agents.knowledge_retriever - INFO - 知识检索专家初始化完成，使用模型: GLM-4, 搜索引擎: bing
+2025-05-22 22:31:15,244 - agents.teaching_analyzer - INFO - 教学分析师初始化完成，加载了18条权重规则
+2025-05-22 22:31:15,244 - agents.course_engineer - INFO - 课程更新工程师初始化完成，使用模板: data/data_struct.md
+2025-05-22 22:31:41,334 - agents.knowledge_retriever - INFO - 开始检索知识: 数据结构 图论
+2025-05-22 22:31:41,334 - api.search_engine_api - INFO - 开始搜索: 数据结构 图论，最大结果数: 10
+2025-05-22 22:31:41,334 - api.search_engine_api - WARNING - 未配置Bing搜索API密钥，将使用模拟数据
+2025-05-22 22:31:41,335 - api.search_engine_api - INFO - 生成模拟搜索结果: 数据结构 图论
+2025-05-22 22:31:41,335 - api.search_engine_api - INFO - 搜索完成，获取到5条结果
+2025-05-22 22:31:41,335 - agents.knowledge_retriever - INFO - 从搜索引擎获取了5条结果
+2025-05-22 22:31:41,335 - api.llm_api - INFO - 开始生成文本，使用模型: GLM-4，提示词长度: 58
+2025-05-22 22:31:41,336 - api.llm_api - WARNING - GLM API未实现，将使用模拟数据
+2025-05-22 22:31:41,336 - api.llm_api - INFO - 生成模拟响应
+2025-05-22 22:31:41,336 - api.llm_api - INFO - 文本生成完成，生成长度: 941
+2025-05-22 22:31:41,336 - agents.knowledge_retriever - INFO - 从大模型获取了14条知识点
+2025-05-22 22:31:41,336 - agents.knowledge_retriever - INFO - 知识检索完成，共获取19条知识点
+2025-05-22 22:31:41,337 - agents.teaching_analyzer - INFO - 开始分析19条知识点
+2025-05-22 22:31:41,343 - agents.teaching_analyzer - INFO - 去重后剩余19条知识点
+2025-05-22 22:31:41,346 - agents.teaching_analyzer - INFO - 完成权重计算和排序，权重范围: 0.20 - 1.00
+2025-05-22 22:31:41,347 - agents.course_engineer - INFO - 开始更新课程内容，共有19个知识点
+2025-05-22 22:31:41,356 - agents.course_engineer - INFO - 课程内容更新完成
