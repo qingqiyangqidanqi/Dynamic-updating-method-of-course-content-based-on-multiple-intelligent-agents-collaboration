@@ -51,7 +51,7 @@
 1. 克隆项目到本地
 
 ```bash
-git clone https://github.com/yourusername/dynamic-course-update.git
+git clone https://github.com/qingqiyangqidanqi/Dynamic-updating-method-of-course-content-based-on-multiple-intelligent-agents-collaboration.git
 cd dynamic-course-update
 ```
 
